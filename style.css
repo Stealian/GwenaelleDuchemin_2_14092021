@@ -22,7 +22,7 @@ a {
     color: black;
 }
 
-header .NavBar {
+header .Menu {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -54,7 +54,7 @@ header li {
     margin-bottom: 35px;
 }
 
-.header-top .NavBar {
+.header-top .Menu {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
@@ -62,14 +62,14 @@ header li {
     text-decoration: none;
 }
 
-.header-top .NavBar a {
+.header-top .Menu a {
     text-decoration: none;
     padding-top: 53px;
     margin-right: 50px;
     font-size: 16px;
 }
 
-.header-top .NavBar a:hover {
+.header-top .Menu a:hover {
     border-top: 2px solid #0065fc;
     color: #0065fc;
 }
@@ -77,4 +77,55 @@ header li {
 .Inscription {
     color: #0065fc;
     font-weight: bolder;
+}
+
+/* HEADER'S TITLE */
+
+.titre {
+    margin-bottom: 15px;
+}
+
+.titre p {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.titre h1 {
+    font-size: 22px;
+}
+
+/* HEADER'S SEARCHBAR */
+
+.Search {
+    display: flex;
+}
+
+.form-btn {
+    display: flex;
+}
+
+.Search input {
+    border: none;
+    padding: 0 10px 0 10px;
+    width: 132px;
+}
+.icone-localisation {
+    padding: 10px;
+    padding-left: 10px;
+    background-color: #f2f2f2;
+    border-radius: 15px 0px 0px 15px;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.fas-fa-map-marker-alt{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.Searche input {
+    height: 50px;
+    border: none;
+    padding: 0 10px 0 10px;
 }
