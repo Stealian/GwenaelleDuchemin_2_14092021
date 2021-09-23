@@ -21,3 +21,60 @@ a {
     text-decoration: none;
     color: black;
 }
+
+header .NavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    list-style: none;
+}
+
+#container {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Logo {
+    padding-top: 10px;
+}
+
+.header-top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 35px;
+    margin-bottom: 35px;
+}
+
+.header-top .NavBar {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.header-top .NavBar a {
+    text-decoration: none;
+    padding-top: 53px;
+    margin-right: 50px;
+    font-size: 16px;
+}
+
+.header-top .NavBar a:hover {
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
+}
+
+.Inscription {
+    color: #0065fc;
+    font-weight: bolder;
+}
