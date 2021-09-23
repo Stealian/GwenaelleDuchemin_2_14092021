@@ -468,3 +468,139 @@ figure h2,p {
 .populaire-grille a:nth-child(3) .populaire-stars i:nth-child(5) {
     color: #e4e4e4;
 }
+
+/* activité */
+#activite {
+    border-radius: 18px;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+.activites {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 550px;
+}
+.activites figure {
+    margin: 0;
+    width: 22%;
+    height: 450px;
+}
+.activite-titre {
+    margin: 15px 0;
+}
+#activite h2 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+#activite p{
+    padding: 10px 0 35px 20px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.activite-carte-simple {
+    overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 11px -6px #9a9a9a;
+    transition: 0.2s ease-in-out;
+}
+.activite-carte-simple:hover {
+    transform: scale(1.015);
+}
+.activite-carte-simple img {
+    height: 390px;
+    object-fit: cover;
+    width: 100%;
+}
+.activite-carte-double {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.activite-carte-double2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.activite-carte1 img {
+    width: 100%;
+}
+.activite-carte1-1 img {
+    width: 100%;
+}
+.activite-moyenne-img img {
+    height: 180px;
+    max-width: 100%;
+    object-fit: cover;
+}
+.activite-carte1 {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 11px -6px #9a9a9a;
+    height: 240px;
+    overflow: hidden;
+    transform: scale(1);
+    transition: 0.2s ease-in-out;
+}
+.activite-carte1-1 {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 11px -6px #9a9a9a;
+    height: 200px;
+    overflow: hidden;
+    transition: 0.2s ease-in-out;
+}
+.activite-carte1:hover, .activite-carte1-1:hover {
+    transform: scale(1.015);
+}
+.activite-carte2 {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 11px -6px #9a9a9a;
+    overflow: hidden;
+    height: 165px;
+    transition: 0.2s ease-in-out;
+}
+.activite-carte2:hover {
+    transform: scale(1.05);
+}
+.activite-petite-carte2 img {
+    height: 145px;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    
+}
+.activite-petite-carte img {
+    height: 110px;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/*footer*/
+footer {
+    margin-top:-100px;
+    padding-bottom: 50px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap:wrap;
+}
+.footer-titre {
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+footer ul {
+    padding-left: 280px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+footer li {
+    font-size: 16px;
+    margin-top: 10px;
+}
