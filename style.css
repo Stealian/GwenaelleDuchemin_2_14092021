@@ -333,3 +333,66 @@ input.btn-search:focus{
     height: 110px;
     border-radius: 20px 20px 0 0;
 }
+.hebergement-plus a {
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 0;
+    margin-top: -30px;
+    display: block;
+}
+figure h2,p {
+    margin: 3px 0 2px 5px;
+}
+.hebergement-stars {
+    font-size: 10px;
+   
+}
+.hebergement-stars i {
+    margin-top:5px;
+    font-size: 12px;
+    color: #0065fc;
+}
+.hebergement-grille a:nth-child(1) .hebergement-stars i:nth-child(5) {
+    color: #e4e4e4;
+}
+.hebergement-grille a:nth-child(3) .hebergement-stars i:nth-child(5) {
+    color:#e4e4e4 ;
+}
+.hebergement-grille a:nth-child(4) .hebergement-stars i:nth-child(4) {
+    color:#e4e4e4 ;
+}
+.hebergement-grille a:nth-child(4) .hebergement-stars i:nth-child(5) {
+    color: #e4e4e4;
+}
+.hebergement-grille a:nth-child(5) .hebergement-stars i:nth-child(5) {
+    color:#e4e4e4 ;
+}
+
+/*POPULAR*/
+#Popular {
+    background-color: #f2f2f2;
+    border-radius: 15px 15px 15px 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 30%;
+}
+.TitlePopular {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: black;
+    margin-top: -40px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+#Popular h2{
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.Populare {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 10px;
+}
