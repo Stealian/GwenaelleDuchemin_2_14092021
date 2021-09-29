@@ -141,6 +141,9 @@ input.btn-search:focus{
     cursor: pointer;
     border-radius: 0px 15px 15px 0px;
 }
+input::placeholder{
+    color: black;
+}
 
 /* header-filtre */
 .filtres {
