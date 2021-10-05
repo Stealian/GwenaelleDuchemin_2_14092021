@@ -64,31 +64,24 @@ header li {
     border-top: 2px solid #0065fc;
     color: #0065fc;
 }
-
 .inscription {
     color: #0065fc;
     font-weight: bolder;
 }
 
-
-/* header-titre */
-
+/* titre */
 .titre {
     margin-bottom: 15px;
 }
-
 .titre p {
     margin-top: 8px;
     font-size: 16px;
 }
-
 .titre h1 {
     font-size: 22px;
 }
 
-
-/* header-search */
-
+/* recherche */
 .recherche {
     display: flex;
 }
@@ -111,28 +104,23 @@ header li {
     height: 30px;
     font-size: 18px;
 }
-
 .fa-map-marker-alt{
     padding-top: 5px;
     padding-left: 10px;
 }
-
 .recherche input {
     height: 50px;
     border: none;
     padding: 0 10px 0 10px;
 }
-
 input.btn-search{
     height: auto;
     width: 213px;
     border: 1px solid #f2f2f2;
 }
-
 input.btn-search:focus{
     outline: none;
 }
-
 .icon-search {
     display: none;
     position: absolute;
@@ -143,13 +131,11 @@ input.btn-search:focus{
     background-color: #0065fc;
     border-radius: 0 15px 15px 0;
 }
-
 .btn-search {
     font-size: 18px;
     cursor: pointer;
     font-weight: bolder;
 }
-
 .btn-reset {
     font-size: 18px;
     color: white;
@@ -158,28 +144,23 @@ input.btn-search:focus{
     border-radius: 0px 15px 15px 0px;
 }
 
-
-/* header-filtre */
-
+/* filtre */
 .filtres {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     margin: 25px 0 20px 10px;
 }
-
 .filtres h3 {
     margin-right: 50px;
     font-size: 18px;
     font-weight: bolder;
 }
-
 .filtres-texte {
     font-size: 18px;
     font-weight: bolder;
     padding: 0 10px;
 }
-
 .filtres-selection {
     height: 50px;
     border: 2px solid #d4d4d4;
@@ -190,19 +171,16 @@ input.btn-search:focus{
     justify-content: space-around;
     padding: 0 10px 0 0;
 }
-
 .filtres-selection:hover {
     cursor: pointer;
     background-color: #deebff;
     transition: all .3s ease-in-out;
 }
-
 .filtres-selection:hover i {
     background-color: #0065fc;
     color: white;
     transition: all .3s ease-in-out;
 }
-
 .filtres-icons {
     font-size: 20px;
     border-radius: 25px;
@@ -212,31 +190,25 @@ input.btn-search:focus{
     background-color: #deebff;
     margin-left: -2px;
 }
-
 .filtres-selection i {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .filtres-texte {
     padding: 0 5px;
 }
 
-
-/* header-banniere */
-
+/* bannière */
 .header-banniere {
     display: flex;
     align-items: center;
     font-size: 60%;
     margin-bottom: 25px;
 }
-
 .header-banniere i {
     color: #0065fc;
 }
-
 .icon i {
     display: flex;
     justify-content: center;
@@ -247,15 +219,12 @@ input.btn-search:focus{
     border: 1px solid #dcdee0;
     margin: 0 5px 0 0;
 }
-
 .header-banniere p {
     font-size: 16px;
     font-weight: 500;
 }
 
-
 /* main */
-
 .main {
     margin-top: 55px;
     display: flex;
@@ -264,15 +233,12 @@ input.btn-search:focus{
     width: 100%;
 }
 
-
 /* hebergement */
-
 #hebergement {
     width: 65%;
     background-color: #f2f2f2;
     border-radius: 18px;
 }
-
 .hebergements {
     display: flex;
     justify-content: space-around;
@@ -284,16 +250,13 @@ input.btn-search:focus{
 .hebergements h2{
     font-size: 22px;
 }
-
 .hebergement-grille figure:hover {
     cursor: pointer;
     transform: scale(1.015);
 }
-
 .hebergement-grille a {
     width: 30%;
 }
-
 .hebergement-grille figure {
     border-radius: 20px;
     padding: 5px 5px 12px 5px;
@@ -375,7 +338,6 @@ input.btn-search:focus{
     height: 110px;
     border-radius: 20px 20px 0 0;
 }
-
 .hebergement-plus a {
     font-size: 18px;
     font-weight: bolder;
@@ -383,44 +345,35 @@ input.btn-search:focus{
     margin-top: -30px;
     display: block;
 }
-
 figure h2,p {
     margin: 3px 0 2px 5px;
 }
-
 .hebergement-stars {
     font-size: 10px;
    
 }
-
 .hebergement-stars i {
     margin-top:5px;
     font-size: 12px;
     color: #0065fc;
 }
-
 .hebergement-grille a:nth-child(1) .hebergement-stars i:nth-child(5) {
     color: #e4e4e4;
 }
-
 .hebergement-grille a:nth-child(3) .hebergement-stars i:nth-child(5) {
     color:#e4e4e4 ;
 }
-
 .hebergement-grille a:nth-child(4) .hebergement-stars i:nth-child(4) {
     color:#e4e4e4 ;
 }
-
 .hebergement-grille a:nth-child(4) .hebergement-stars i:nth-child(5) {
     color: #e4e4e4;
 }
-
 .hebergement-grille a:nth-child(5) .hebergement-stars i:nth-child(5) {
     color:#e4e4e4 ;
 }
 
 /* populaire */
-
 #populaire {
     background-color: #f2f2f2;
     border-radius: 15px 15px 15px 15px;
@@ -428,7 +381,6 @@ figure h2,p {
     padding-left: 10px;
     width: 30%;
 }
-
 .populaire-titre {
     display: flex;
     justify-content: flex-end;
@@ -443,14 +395,12 @@ figure h2,p {
     margin-left: 30px;
     margin-top: 30px;
 }
-
 .populaire {
     display: flex;
     flex-direction: column;
     height: 100%;
     padding: 0 10px;
 }
-
 .populaire-grille {
     display: flex;
     justify-content: space-around;
@@ -458,7 +408,6 @@ figure h2,p {
     flex-direction: column;
     margin-bottom: 10px;
 }
-
 .populaire-grille figure {
     background-color: #ffffff;
     box-shadow: 4px 4px 11px -6px #9a9a9a;
@@ -467,85 +416,70 @@ figure h2,p {
     max-width: 95%;
     transition: 0.2s ease-in-out;
 }
-
 .populaire-grille figure:hover {
     transform: scale(1.015);
 }
-
 .populaire-grille a {
     width: 95%;
 }
-
 .populaire-marseille {
     padding: 5px;
     border-radius: 20px;
     height: 140px;
     margin: 18px 0;
 }
-
 .populaire-details {
     padding-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-
 .populaire-details h3 {
     font-size: 16px;
     margin-top: 0;
     padding-right: 20px;
     padding-left: 10px;
 }
-
 .populaire-details p {
     font-size: 14px;
     margin-top: -30px;
     margin-left: 10px;
 }
-
 .fa-chart-line {
     color: black;
     padding-top: 0px;
     padding-right: 10px;
 }
-
 .populaire-marseille img {
     width: 140px;
     height: 140px;
     object-fit: cover;
     border-radius: 15px 0 0 15px;
 }
-
 .populaire-marseille a {
     display: flex;
     flex-direction: row;
     height: 100%;
 }
-
 .populaire-stars {
     color: #0065fc;
     font-size: 10px;
     margin-left: 10px;
 }
-
 .populaire-grille a:nth-child(2) .populaire-stars i:nth-child(5) {
     color: #e4e4e4;
 }
-
 .populaire-grille a:nth-child(3) .populaire-stars i:nth-child(5) {
     color: #e4e4e4;
 }
 
-
 /* activité */
-
 #activite {
     border-radius: 18px;
     margin: 30px 0;
     display: flex;
     flex-direction: column;
 }
-
 .activites {
     text-decoration: none;
     display: flex;
@@ -553,28 +487,23 @@ figure h2,p {
     flex-direction: row;
     height: 550px;
 }
-
 .activites figure {
     margin: 0;
     width: 22%;
     height: 450px;
 }
-
 .activite-titre {
     margin: 15px 0;
 }
-
 #activite h2 {
     font-size: 20px;
     font-weight: bolder;
 }
-
 #activite p{
     padding: 10px 0 35px 20px;
     font-size: 16px;
     font-weight: bolder;
 }
-
 .activite-carte-simple {
     overflow: hidden;
     background-color: white;
@@ -582,43 +511,35 @@ figure h2,p {
     box-shadow: 4px 4px 11px -6px #9a9a9a;
     transition: 0.2s ease-in-out;
 }
-
 .activite-carte-simple:hover {
     transform: scale(1.015);
 }
-
 .activite-carte-simple img {
     height: 390px;
     object-fit: cover;
     width: 100%;
 }
-
 .activite-carte-double {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
 .activite-carte-double2 {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
 }
-
 .activite-carte1 img {
     width: 100%;
 }
-
 .activite-carte1-1 img {
     width: 100%;
 }
-
 .activite-moyenne-img img {
     height: 180px;
     max-width: 100%;
     object-fit: cover;
 }
-
 .activite-carte1 {
     background-color: white;
     border-radius: 20px;
@@ -628,7 +549,6 @@ figure h2,p {
     transform: scale(1);
     transition: 0.2s ease-in-out;
 }
-
 .activite-carte1-1 {
     background-color: white;
     border-radius: 20px;
@@ -637,11 +557,9 @@ figure h2,p {
     overflow: hidden;
     transition: 0.2s ease-in-out;
 }
-
 .activite-carte1:hover, .activite-carte1-1:hover {
     transform: scale(1.015);
 }
-
 .activite-carte2 {
     background-color: white;
     border-radius: 20px;
@@ -650,7 +568,6 @@ figure h2,p {
     height: 165px;
     transition: 0.2s ease-in-out;
 }
-
 .activite-carte2:hover {
     transform: scale(1.05);
 }
@@ -659,7 +576,6 @@ figure h2,p {
     width: 100%;
     max-width: 100%;
     object-fit: cover;
-    
 }
 .activite-petite-carte img {
     height: 110px;
@@ -669,7 +585,6 @@ figure h2,p {
 }
 
 /* footer */
-
 footer {
     margin-top:-75px;
     padding-bottom: 50px;
@@ -678,20 +593,17 @@ footer {
     flex-wrap:wrap;
 
 }
-
 .footer-titre {
     font-weight: bolder;
     margin-bottom: 20px;
     font-size: 18px;
 }
-
 footer ul {
     padding-left: 280px;
     margin-top: 20px;
     margin-bottom: 30px;
     list-style: none;
 }
-
 footer li {
     font-size: 16px;
     margin-top: 10px;
